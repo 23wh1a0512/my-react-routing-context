@@ -22,6 +22,18 @@ const AppLayout = () => {
       }}>
       <Outlet />
       </section>
+      <footer style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%',
+        height: '60px',
+        backgroundColor: '#f1f1f1',
+        position: 'fixed',
+        bottom: 0
+      }}>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </footer>
     </>
   );
 }
